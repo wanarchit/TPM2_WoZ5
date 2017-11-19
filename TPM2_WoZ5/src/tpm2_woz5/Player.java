@@ -13,17 +13,17 @@ import java.util.ArrayList;
 
 /**
  *
- * @author Paul
+ * @author Delphine
  */
 public class Player {
     private String aliasP;
     private ArrayList<Weapon> weaponP;
-    private int strength;
+    private int strenghtPlayer;
 
     public Player(String pseudoJ, ArrayList<Weapon> armeJ, int forceJ) {
         this.aliasP = pseudoJ;
         this.weaponP = armeJ;
-        this.strength = forceJ;
+        this.strenghtPlayer = forceJ;
     }
 
     public String getAliasP() {
@@ -42,12 +42,12 @@ public class Player {
         this.weaponP = weaponP;
     }
 
-    public int getStrength() {
-        return strength;
+    public int getStrenghtPlayer() {
+        return strenghtPlayer;
     }
 
-    public void setStrength(int strength) {
-        this.strength = strength;
+    public void setStrenghtPlayer(int strenghtPlayer) {
+        this.strenghtPlayer = strenghtPlayer;
     }
     
 }

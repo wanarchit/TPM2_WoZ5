@@ -17,12 +17,12 @@ import java.util.ArrayList;
  */
 public class Player {
     private String aliasP;
-    private ArrayList<Weapon> weaponP;
+    private ArrayList<Weapon> weaponPlayer;
     private int strenghtPlayer;
 
     public Player(String pseudoJ, ArrayList<Weapon> armeJ, int forceJ) {
         this.aliasP = pseudoJ;
-        this.weaponP = armeJ;
+        this.weaponPlayer = armeJ;
         this.strenghtPlayer = forceJ;
     }
 
@@ -34,12 +34,12 @@ public class Player {
         this.aliasP = aliasP;
     }
 
-    public ArrayList<Weapon> getWeaponP() {
-        return weaponP;
+    public ArrayList<Weapon> getWeaponPlayer() {
+        return weaponPlayer;
     }
 
-    public void setWeaponP(ArrayList<Weapon> weaponP) {
-        this.weaponP = weaponP;
+    public void setWeaponPlayer(ArrayList<Weapon> weaponPlayer) {
+        this.weaponPlayer = weaponPlayer;
     }
 
     public int getStrenghtPlayer() {
